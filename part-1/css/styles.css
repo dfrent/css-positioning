@@ -45,4 +45,50 @@ body {
 
 .yellow {
   background-color: yellow;
+    position: fixed;
+    overflow: hidden;
+    display: block;
+}
+.container {
+    position: relative;
+    height: 10%;
+}
+
+.green {/* position: relative; */}
+
+.green {
+    position: absolute;
+}
+
+.box {
+    position: absolute;
+}
+
+.box.blue {
+    left: 221px;
+    bottom: -48px;
+    z-index: 3;
+}
+
+.box.green {
+    right: 339px;
+    top: -35px;
+}
+
+span {
+    z-index: 1;
+}
+
+.box.orange {
+    right: -59px;
+    top: 137px;
+}
+
+.box.red {
+    left: -119px;
+    bottom: -68px;
+}
+.box.yellow {
+    position: fixed;
+    bottom: 0;
 }
